@@ -1,14 +1,13 @@
 <script setup lang="ts">
-
-import Header from "../partials/Header.vue";
-import Footer from "../partials/Footer.vue";
+import FooterPartial from "../partials/FooterPartial.vue";
+import HeaderPartial from "../partials/HeaderPartial.vue";
 </script>
 
 <template>
-  <Header title="Vite + Vue Template" />
+  <HeaderPartial title="Vite + Vue Template" />
   <p>Authenticated Layout</p>
   <RouterView />
-  <Footer />
+  <FooterPartial />
 </template>
 
 <style scoped lang="scss">
